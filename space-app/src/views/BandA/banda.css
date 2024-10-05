@@ -1,0 +1,31 @@
+.BandA {
+    color: #ffffff;
+}
+
+.BandA-title h1 {
+    margin-top: 10px;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BandA-slider {
+    position: absolute;
+    width: 80%;
+    height: auto;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.BandA-slider img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.before-after-slider__first-photo-container, .before-after-slider__second-photo-container{
+    height: 600px;
+}
