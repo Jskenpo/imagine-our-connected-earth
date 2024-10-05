@@ -20,7 +20,7 @@ Through scientific information, updated news, and interactive resources, we will
             <div id='temperatureViewContent'>
                 <ClimateCardWhite 
                     videoSrc={ClimateSpiral}
-                    content='' 
+                    content='This video graphically illustrates the change in global temperatures from 1880 to 2022. It visually represents the increasing trend in temperatures over time, starting from the late 19th century when industrialization began to accelerate. As the years progress, the video highlights how the Earths temperature has gradually risen, with a marked and rapid increase in recent decades. The graphic vividly demonstrates the undeniable warming of our planet, emphasizing the urgency of addressing climate change as temperatures continue to rise at an alarming rate.' 
                 />
                 
             </div>

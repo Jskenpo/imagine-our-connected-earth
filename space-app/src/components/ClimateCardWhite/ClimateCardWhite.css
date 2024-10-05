@@ -1,0 +1,43 @@
+
+#climateCardWhite{
+    position:absolute;
+    top: 60%;
+    background-color: white;
+    width: 100%;
+    height: 50%;
+    display : flex;
+    justify-content: space-around;
+    padding: 1%;
+    border-radius: 10px;
+
+}
+
+#CCContent{
+    position: relative;
+    width: 45%;
+    height: 75%;
+    top: 10%;
+    text-align: justify;
+}
+
+#CCContent p{
+    color:black;
+}
+
+#CCVideo{
+    position: relative;
+    width: 45%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+#CCVideo_src{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
