@@ -10,13 +10,15 @@
     align-items: center;
 }
 
+.BandA-content {
+    position: relative;
+    margin: 0 auto;
+}
+
 .BandA-slider {
-    position: absolute;
     width: 80%;
-    height: auto;
-    top: 58%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    height: 70%;
+    margin: 0 auto;
 }
 
 .BandA-slider img {
@@ -28,4 +30,15 @@
 
 .before-after-slider__first-photo-container, .before-after-slider__second-photo-container{
     height: 600px;
+}
+
+.BandA-description {
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
