@@ -6,22 +6,22 @@ import './banda.css';
 
 function BandA() {
     const FIRST_IMAGE_SLIDER1 = {
-        imageUrl: '/assets/katlaB.jpg',
+        imageUrl: 'https://eoimages.gsfc.nasa.gov/images/imagerecords/84000/84707/katla_oli_2014263_lrg.jpg',
         alt: 'Katla before'
     };
 
     const SECOND_IMAGE_SLIDER1 = {
-        imageUrl: '/assets/katlaA.jpg',
+        imageUrl: 'https://eoimages.gsfc.nasa.gov/images/imagerecords/84000/84707/katla_tm5_1986259_lrg.jpg',
         alt: 'Katla after'
     };
 
     const FIRST_IMAGE_SLIDER2 = {
-        imageUrl: '/assets/GlacierA.jpg',
+        imageUrl: 'https://eoimages.gsfc.nasa.gov/images/imagerecords/147000/147350/spalte_oli_2020206_lrg.jpg',
         alt: 'Glacier before'
     };
 
     const SECOND_IMAGE_SLIDER2 = {
-        imageUrl: '/assets/GlacierB.jpg',
+        imageUrl: 'https://eoimages.gsfc.nasa.gov/images/imagerecords/147000/147350/spalte_tm5_1986228_lrg.jpg',
         alt: 'Glacier after'
     };
 
