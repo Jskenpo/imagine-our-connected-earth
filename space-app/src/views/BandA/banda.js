@@ -16,12 +16,12 @@ function BandA() {
     };
 
     const FIRST_IMAGE_SLIDER2 = {
-        imageUrl: '/assets/GlacierB.jpg',
+        imageUrl: '/assets/GlacierA.jpg',
         alt: 'Glacier before'
     };
 
     const SECOND_IMAGE_SLIDER2 = {
-        imageUrl: '/assets/GlacierA.jpg',
+        imageUrl: '/assets/GlacierB.jpg',
         alt: 'Glacier after'
     };
 
