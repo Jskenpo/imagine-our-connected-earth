@@ -77,7 +77,7 @@ function Home() {
                             </text>
                         </svg>
                     </span> 
-                     Changing...
+                     Changing
                 </h1>
                 <video className="rotated-video" autoPlay muted loop>
                     <source src={VideoHome} type="video/mp4" />

@@ -1,0 +1,111 @@
+#aboutContainer {
+    background-color: #000000;
+}
+
+#aboutContainer h1 {
+    margin-top: 10px;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blackSquare{
+    display:none;
+}
+
+
+.about-field-container {
+    display: block;
+    padding-left: 24%;
+    padding-right: 24%;
+}
+
+.customFieldset {
+    position: relative;
+    background-color: transparent; 
+    text-align: center;
+    margin-top: 1%;
+}
+
+.customFieldset .p-fieldset-legend {
+    font-size: 12px;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-weight: normal;
+    background-color: transparent;  /* Fondo transparente para la leyenda */
+    border-radius: 10px;
+    text-align: center; 
+    display: inline-block;
+    padding-bottom: 10px;  /* Espacio debajo de la leyenda */
+    color: white;  /* Color del texto de la leyenda */
+
+    /* Efecto hover */
+    &:hover {
+        background-color: #ffffff;  /* Cambia el fondo al hacer hover */
+        color: #000000;  /* Cambia el color del texto al hacer hover */
+    }
+}
+
+.customFieldset .p-fieldset-content {
+    padding-top: 20px;
+    background-color: transparent;  /* Fondo transparente para el contenido */
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;  /* Añadida transición suave */
+    color: white;  /* Color del texto en el contenido */
+}
+
+
+#aboutGifBackground{
+    position: absolute;
+    top: 35%;
+    left: -15%;
+    width: 600px;
+}
+
+#aboutTeamImage{
+    border-radius: 10px;
+    width: 75%;
+}
+
+
+@media screen and (max-width: 1024px) {
+    #aboutGifBackground{
+        left: -27%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .about-field-container{
+        z-index: 5;
+        position:relative;
+    }
+    .blackSquare{
+        display: none;
+    }
+    #aboutGifBackground{
+        left: -40%;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .blackSquare{
+        display: block;
+        position: absolute;
+        top: 55%;
+        left: 0;
+        width: 25%;
+        height: 5%;
+        background-color: #000000;
+        z-index: 2;
+    }
+    #aboutGifBackground{
+        position: relative;
+        left: -30%;
+        z-index: 1;
+    }
+    
+}
