@@ -1,7 +1,7 @@
 
-# Earth Information Center
+# The Changing World 
 
-The Earth Information Center project is a web-based platform that aims to provide engaging and accessible information about Earth's systems, their global interconnections, and the impact of climate change. The platform includes interactive features, multimedia content, and real-world examples from NASA's Earth-observing satellites.
+The Changing World project is a web-based platform that aims to provide engaging and accessible information about Earth's systems, their global interconnections, and the impact of climate change. The platform includes interactive features, multimedia content, and real-world examples from NASA's Earth-observing satellites.
 
 ## Project Structure
 
@@ -45,11 +45,11 @@ The Before and After section allows users to compare visual representations of e
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/earth-information-center.git
+   git clone https://github.com/Jskenpo/imagine-our-connected-earth.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd earth-information-center
+   cd space-app
    ```
 3. Install the required dependencies:
    ```bash
