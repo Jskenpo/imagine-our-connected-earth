@@ -1,23 +1,30 @@
 #temperatureViewTitle{
     margin-top: 10px;
     font-size: 3.5rem;
+    
+    width: 100%;
+    height: auto;
+}
+
+#temperatureViewTitle h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 #temperatureViewIntro{
     position:relative;
     top : 10%;
     width: 70%;
-    height: 45%;
+    height: auto;
     text-align: justify;
     left: 15%;
 }
 
 #temperatureViewContent{
     position:relative;
-    top : 10%;
+    top : 15%;
     width: 100%;
     height: auto;
     text-align: justify;
