@@ -11,9 +11,9 @@ function Home() {
             const width = window.innerWidth;
 
             if (width <= 321) {
-                setTextSettings({ x: 12, y: 10, fontSize: 10 });
+                setTextSettings({ x: 6, y: 8, fontSize: 8 });
             } else if (width <= 389) {
-                setTextSettings({ x: 18, y: 12, fontSize: 12 });
+                setTextSettings({ x: 6, y: 8, fontSize: 8 });
             } else if (width <= 450) {
                 setTextSettings({ x: 20, y: 13, fontSize: 14 });
             } else if (width <= 821) {
