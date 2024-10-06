@@ -3,6 +3,11 @@
 
 The Changing World project is a web-based platform that aims to provide engaging and accessible information about Earth's systems, their global interconnections, and the impact of climate change. The platform includes interactive features, multimedia content, and real-world examples from NASA's Earth-observing satellites.
 
+## Proyect result
+
+<a href='https://imagine-our-connected-earth.web.app'>Link de página web</a>
+
+
 ## Project Structure
 
 ### Components:
@@ -10,6 +15,7 @@ The Changing World project is a web-based platform that aims to provide engaging
 - **Air Quality Section**: Showcases videos and information on the causes and effects of air pollution and how it impacts human health, ecosystems, and climate change.
 - **Before and After (BandA) Section**: Provides before-and-after comparisons of environmental changes using a slider for visualizing the effects of climate change.
 - **Home Section**: Includes a dynamic title with a liquid effect and a video to welcome users to the platform.
+- **Climate Vital Signs**: Includes various videos showing how the world has changed over the years due to climate change.
 
 ## Technologies Used
 
