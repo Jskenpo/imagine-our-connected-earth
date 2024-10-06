@@ -1,0 +1,137 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    position: relative;
+}
+
+.home h1 {
+    font-size: 10.5rem;
+}
+
+.liquid-effect {
+    display: inline-block;
+    width: 490px; /* Ajusta el tamaño según sea necesario */
+    height: 180px;
+    background-color: white;
+    padding-left: 2%;
+    margin-left: 2%;
+}
+
+.rotated-video {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    width: 700px;
+    pointer-events: none;
+}
+
+svg {
+    font-weight: bold;
+    max-width: 900px;
+    height: 100%;
+}
+
+/* Responsive Media Queries */
+
+@media screen and (max-width: 1500px) {
+    .home h1 {
+        display: inline;
+        font-size: 4.5rem;
+    }
+
+    .liquid-effect {
+        width: 450px;
+        height: 160px;
+    }
+
+    .rotated-video {
+        position: static; /* Elimina la posición absoluta para poner el video debajo del contenido */
+        transform: rotate(-180deg); /* Mantén la rotación */
+        width: 600px;
+        margin-top: 20px; /* Añade un margen superior para separarlo del contenido */
+    }
+}
+
+/* Pantallas medianas */
+@media screen and (max-width: 821px) {
+    .home h1 {
+        display: inline;
+        font-size: 2.5rem;
+    }
+
+    .liquid-effect {
+        width: 400px;
+        height: 150px;
+    }
+
+    .rotated-video {
+        position: static; /* Elimina la posición absoluta para poner el video debajo del contenido */
+        transform: rotate(-180deg); /* Mantén la rotación */
+        width: 500px;
+        margin-top: 20px; /* Añade un margen superior para separarlo del contenido */
+    }
+}
+
+/* Pantallas pequeñas */
+@media screen and (max-width: 450px) {
+    .home h1 {
+        display: inline;
+        font-size: 2.35rem;
+    }
+
+    .liquid-effect {
+        width: 400px;
+        height: 130px;
+    }
+
+    .rotated-video {
+        position: static; /* Elimina la posición absoluta para poner el video debajo del contenido */
+        transform: rotate(-180deg); /* Mantén la rotación */
+        width: 300px;
+        margin-top: 20px; /* Añade un margen superior para separarlo del contenido */
+    }
+}
+
+/* Pantallas muy pequeñas */
+@media screen and (max-width: 389px) {
+    .home h1 {
+        display: inline;
+        font-size: 2.2rem;
+    }
+
+    .liquid-effect {
+        width: 340px;
+        height: 120px;
+    }
+
+    .rotated-video {
+        position: static;
+        transform: rotate(-180deg);
+        width: 280px;
+        margin-top: 20px;
+    }
+}
+
+/* Pantallas muy pequeñas */
+@media screen and (max-width: 321px) {
+    .home h1 {
+        display: inline;
+        font-size: 2rem;
+    }
+
+    .liquid-effect {
+        width: 280px;
+        height: 100px;
+    }
+
+    .rotated-video {
+        position: static;
+        transform: rotate(-180deg);
+        width: 200px;
+        margin-top: 20px;
+    }
+}
