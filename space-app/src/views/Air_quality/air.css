@@ -1,0 +1,139 @@
+.Air_Container h1 {
+    margin-top: 10px;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Air_CandE h1 {
+    margin-top: 10px;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Video_Row {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.Video_Air {
+    width: 35%;
+    margin: 0 2px;
+    border-radius: 5%;
+}
+
+.Cande {
+    text-align: justify;
+    margin: 0 auto;
+    margin-top: 15px;
+    max-width: 800px;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+.Cause_Effect_Container {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.Cause_List, .Effect_List {
+    width: 45%;
+}
+
+.Cause_List h2, .Effect_List h2 {
+    margin-top: 15px;
+    font-size: 1.8rem;
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+
+.Cause_List ul, .Effect_List ul {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.Cause_List li, .Effect_List li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 821px) {
+    .Video_Air {
+        width: 45%;
+    }
+
+    .Cande {
+        font-size: 1.1rem;
+    }
+
+    .Cause_Effect_Container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Cause_List, .Effect_List {
+        width: 100%;
+    }
+
+    .Cause_List h2, .Effect_List h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .Air_Container h1, .Air_CandE h1 {
+        font-size: 2.5rem;
+    }
+
+    .Video_Air {
+        width: 90%;
+    }
+
+    .Cande {
+        font-size: 1rem;
+    }
+
+    .Cause_List li, .Effect_List li {
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 389px) {
+    .Air_Container h1, .Air_CandE h1 {
+        font-size: 2rem;
+    }
+
+    .Cande {
+        font-size: 0.9rem;
+    }
+}
+
+
+@media screen and (max-width: 321px) {
+    .Air_Container h1, .Air_CandE h1 {
+        font-size: 1.8rem;
+    }
+
+    .Cande {
+        font-size: 0.85rem;
+    }
+
+    .Cause_List li, .Effect_List li {
+        font-size: 0.9rem;
+    }
+}
