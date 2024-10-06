@@ -1,0 +1,80 @@
+
+#climateCardWhite{
+    position:relative;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display : flex;
+    justify-content: space-around;
+    padding: 1%;
+    border-radius: 10px;
+
+}
+
+#CCWContent{
+    position: relative;
+    width: 45%;
+    height: 100%;
+    top: 10%;
+    
+
+}
+
+#CCWContent p{
+    color:black;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#CCWVideo{
+    position: relative;
+    width: 45%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+#CCWVideo_src{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    #climateCardWhite {
+        flex-direction: column; /* Change to vertical layout */
+        align-items: center; /* Center the content */
+        padding: 1%;
+    }
+
+    #CCWContent {
+        width: 90%; /* Take more width in vertical layout */
+        top: 5%; /* Adjust top position */
+        height: auto; /* Let height adjust automatically */
+    }
+
+    #CCWVideo {
+        width: 90%; /* Adjust video width to fit */
+        height: auto; /* Let height adjust automatically */
+        margin-top: 2%; /* Add margin for spacing */
+    }
+
+    #CCWContent p {
+        font-size: 1rem; /* Reduce text size for smaller screens */
+    }
+}
+
+/* Media query for very small screens (e.g. phones) */
+@media (max-width: 480px) {
+    #CCWContent p {
+        font-size: 0.9rem; /* Further reduce text size on smaller screens */
+    }
+}
