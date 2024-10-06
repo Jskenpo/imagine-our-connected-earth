@@ -4,6 +4,7 @@ import "./about.css";
 
 import { Fieldset } from 'primereact/fieldset';
 import gif from '../../assets/about.gif'
+import grupo from '../../assets/grupo.jpeg'
 
 function About() {
     return (
@@ -61,7 +62,7 @@ function About() {
                         <div >
                             <img 
                                 id="aboutTeamImage"
-                                src="https://private-user-images.githubusercontent.com/78128693/373893365-f32fb0d5-3771-4811-8bb9-3d99fe82ca10.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjgxNjg0MjMsIm5iZiI6MTcyODE2ODEyMywicGF0aCI6Ii83ODEyODY5My8zNzM4OTMzNjUtZjMyZmIwZDUtMzc3MS00ODExLThiYjktM2Q5OWZlODJjYTEwLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDA1VDIyNDIwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVkODcxYjk3ZTk0MjdiOTJmNjlmZGY2MjEwYzQzODllMjNkYWQ1MDU3YTgxMjY0OTFjMTE5YTI4MWRmZjU1NzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.V0iGQTQiAenYOKddkLDKJfCfvZvDvHuU0eVeWQI8yHY"
+                                src={grupo}
                                 />
                         </div>   
                         <br /> 
