@@ -10,7 +10,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router /*basename="/space-app/webpack/index.html"*/ >
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/air" element={<Air />} />
