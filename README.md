@@ -5,7 +5,7 @@ The Changing World project is a web-based platform that aims to provide engaging
 
 ## Proyect result
 
-<a href='https://imagine-our-connected-earth.web.app'>Link de página web</a>
+<a href='https://imagine-our-connected-earth.web.app'>Redirect to webpage</a>
 
 
 ## Project Structure
